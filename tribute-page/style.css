@@ -1,0 +1,38 @@
+p {
+    padding: 20px 450px 20px 450px;
+    font-size: 15px;
+    margin: 1px 3px 3px 3px;
+  }
+  h5 {
+font-family: 'Roboto';
+text-align: center;
+  }
+  li{
+    margin-bottom: 20px;
+  }
+  ul {
+    font-family: 'Roboto';
+font-size: 20px;
+margin: 50px 350px 5px 350px;
+padding: 50px 50px 1px 50px;
+  }
+img {
+width: 800px;
+height: 500px;
+}
+  h1 {
+font-size: 40px;
+text-align: center;
+  }
+  h6 {
+    font-size: 13px;
+    font-family: 'Roboto';
+    text-align: center; 
+  }
+div {
+  padding: 15px 0px 1px 0px;
+  background-color: #E8E8E8;
+}
+section {
+    text-align: center;
+}
