@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey form</title>
+    <link rel="stylesheet" href="survey.css">
 </head>
+
 <body>
     <a href="../my-projects.html">Go back</a>
-    <h1>Survey form project coming soon</h1>
+    <div class="fullCard">
+        <p>Name</p>
+        <input type="text" placeholder="Enter your text" required>
+        <p>Email</p>
+        <input type="text" placeholder="Enter your text" required>
+        <p>Age(optional)</p>
+        <input type="text" placeholder="Enter your text" required>
+        <p>Which option best describes your current role?</p>
+        <input type="text" placeholder="Select current role" required>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <p><label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Definitely</label></p>
+        <p><label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Maybe</label></p>
+        <p><label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Not sure</label></p>
+        <p>What is your favorite feature of freeCodeCamp?</p>
+        <input type="text" placeholder="Select an option" required>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <label for="Front-end Projects"><input id="Front-end Projects" type="checkbox" name="choise"> Front-end
+            Projects</label><br>
+        <label for="Back-end Projects"><input id="Back-end Projects" type="checkbox" name="choise"> Back-end
+            Projects</label><br>
+        <label for="Data Visualization"><input id="Data Visualization" type="checkbox" name="choise"> Data
+            Visualization</label><br>
+        <label for="Challenges"><input id="Challenges" type="checkbox" name="choise"> Challenges</label><br>
+        <label for="Open Source Community"><input id="Open Source Community" type="checkbox" name="choise"> Open Source
+            Community</label><br>
+        <label for="Gitter help rooms"><input id="Gitter help rooms" type="checkbox" name="choise"> Gitter help
+            rooms</label><br>
+        <label for="Videos"><input id="Videos" type="checkbox" name="choise"> Videos</label><br>
+        <label for="City Meetups"><input id="City Meetups" type="checkbox" name="choise"> City Meetups</label><br>
+        <label for="Wiki"><input id="Wiki" type="checkbox" name="choise"> Wiki</label><br>
+        <label for="Forum"><input id="Forum" type="checkbox" name="choise"> Forum</label><br>
+        <label for="Additional Courses"><input id="Additional Courses" type="checkbox" name="choise"> Additional
+            Courses</label><br>
+        <p>Any comments or suggestions?</p>
+        <input type="text" placeholder="Enter your comment here..." required>
+        <button type="submit">Submit</button>
+    </div>
 </body>
+
 </html>
